@@ -1,12 +1,12 @@
 function [G,F] = preProcessGF(X,nClass,nRun) 
 % Using K-means+PCA to initialize G and F
 
-% Input£º
+% Input: 
 %       X       -each column is a data point
 %       nClass  -total number of classes
 %       nRun	-times of randomly running k-means  
 
-% Output£º
+% Output: 
 %       G       -each column is a non-negative base
 %       F       -each column is a non-negative orthogonal coefficient
 
